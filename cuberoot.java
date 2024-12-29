@@ -7,6 +7,7 @@ public class p23 {
 	public static int cuberoot(int n) {
 		double cuberoot = n/3;
 		double temp = 0;
+		//formula for cube root
 		while(cuberoot-temp!=0) {
 			temp = cuberoot;
 			cuberoot = ((2*temp)+(n)/(temp*temp))/3;

@@ -4,6 +4,7 @@ public class p22 {
 	public static int squareroot(int n) {
 		double sqrt = n/2;
 		double temp = 0;
+		//formula for the square root was in the book
 		while(sqrt-temp!=0) {
 			temp = sqrt;
 			sqrt = (temp + n/temp)/2;
